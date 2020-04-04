@@ -2,13 +2,16 @@ body {
   font-weight: 100;
 }
 
-h1, h2, h3, h4 {
+h1,
+h2,
+h3,
+h4 {
   font-weight: 100;
   margin: 20px 0;
 }
 
 section {
-  margin: 50px 0
+  margin: 50px 0;
 }
 
 .coaster-card img {
@@ -23,7 +26,7 @@ section {
 
 .coaster-card {
   padding: 0 20px;
-  margin: 20px 0
+  margin: 20px 0;
 }
 
 .coaster-card h3 {
@@ -32,18 +35,18 @@ section {
 }
 
 .coaster-card p {
-  font-size: .8em;
+  font-size: 0.8em;
   margin-bottom: 0;
   height: 150px;
-   overflow: scroll;
+  overflow: scroll;
 }
 
 .coaster-card small {
-  font-size: .7em;
+  font-size: 0.7em;
 }
 
 .coaster-details img {
- width: 100% 
+  width: 100%;
 }
 
 .navbar-nav a {
@@ -55,7 +58,7 @@ section {
 }
 
 .pointer:hover {
-  text-decoration: underline ;
+  text-decoration: underline;
 }
 
 button {
@@ -80,4 +83,10 @@ button {
 
 .fpimg:hover {
   box-shadow: 0 0 2px 1px rgba(0, 5, 7, 0.5);
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
 }

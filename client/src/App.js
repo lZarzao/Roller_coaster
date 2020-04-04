@@ -85,6 +85,12 @@ class App extends Component {
             }
           />
         </Switch>
+        <footer className="footer mt-auto py-3 bg-dark text-white">
+          <div className="container">
+            &copy; {new Date().getFullYear()} Copyright:{" "}
+            <a href="https://www.linkedin.com/in/luis-zarzao/"> Luis Zarza </a>
+          </div>
+        </footer>
       </>
     );
   }

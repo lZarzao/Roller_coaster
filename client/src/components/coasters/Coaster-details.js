@@ -89,7 +89,7 @@ class CoasterDetail extends Component {
               <hr />
               <div className="btnFlex">
                 {this.state.loggedInUser && (
-                  <Button variant="dark" onClick={this.deleteCoaster}>
+                  <Button variant="dark" onClick={this.handleShow}>
                     Editar
                   </Button>
                 )}
